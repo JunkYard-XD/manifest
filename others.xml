@@ -5,6 +5,7 @@
 
   <!-- External -->
   <!-- LineageOS -->
+  <project path="frameworks/opt/colorpicker" name="android_frameworks_opt_colorpicker" remote="lineage" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/android-nn-driver" name="android_external_android-nn-driver" remote="lineage" />
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="lineage" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="lineage" />
