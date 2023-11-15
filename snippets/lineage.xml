@@ -111,4 +111,10 @@
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" groups="qcom,waipio-vendor" remote="lineage" />
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom" remote="lineage" />
 
+  <!-- Derp-Rev -->
+  <project path="packages/modules/DnsResolver" name="android_packages_modules_DnsResolver" remote="lineage" />
+  <project path="packages/modules/StatsD" name="android_packages_modules_StatsD" remote="lineage" />
+  <project path="system/ca-certificates" name="android_system_ca-certificates" remote="lineage" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="lineage" />
+
 </manifest>
