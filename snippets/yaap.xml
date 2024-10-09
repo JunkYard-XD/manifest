@@ -11,15 +11,19 @@
            fetch="https://github.com/yaap"
            revision="refs/heads/fifteen" />
 
+  <remote  name="jy"
+           fetch="https://github.com/JunkYard-XD"
+           revision="refs/heads/fifteen" />
+
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
   <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
   <project path="bionic" name="bionic" remote="yaap" />
-  <project path="manifest" name="yaap/manifest" remote="github" revision="fifteen" />
+  <project path="manifest" name="JunkYard-XD/manifest" remote="github" revision="fifteen" />
 
   <!-- Build -->
-  <project path="build/make" name="build_make" remote="yaap" >
+  <project path="build/make" name="build_make" remote="jy" >
    <copyfile src="core/root.mk" dest="Makefile" />
    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -74,7 +78,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="yaap" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
-  <project path="frameworks/native" name="frameworks_native" remote="yaap" />
+  <project path="frameworks/native" name="frameworks_native" remote="jy" />
   <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker" remote="yaap" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="yaap" />
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="yaap" />
@@ -213,6 +217,6 @@
   <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="fifteen" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
   <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
+  <project path="vendor/yaap" name="vendor_yaap" remote="jy" />
 
 </manifest>
