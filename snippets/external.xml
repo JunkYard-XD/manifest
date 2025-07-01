@@ -51,12 +51,11 @@
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="arrow" />
   
    <!-- Face Unlock -->  
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-self-hosted" />
   
   <!-- ProtonAosp -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" groups="pdk" remote="github" revision="sc-v2" />
   <project path="external/themelib" name="ProtonAOSP/android_external_themelib" groups="pdk" remote="github" revision="sc-v2" />
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" remote="github" revision="master" clone-depth="1" />
   
   <!-- Proton Fonts -->
   <project path="external/noto-fonts" name="android_external_noto-fonts" remote="proton" />
